@@ -85,6 +85,7 @@ body {
   align-items: center;
   padding: 0 30px;
   z-index: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 #logo img {
@@ -388,7 +389,10 @@ body {
 
 #contact .content-section .mail>input:last-child {}
 
-#footer {}
+#footer {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  
+}
 
 #footer .list-footer {
   display: flex;
@@ -470,6 +474,7 @@ hr {
 
 .more-main {
   margin: 0 168px;
+  margin-top: 50px
 }
 
 .sub-title {
@@ -477,11 +482,8 @@ hr {
 }
 
 .sub-title>button {
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  /* margin-right: 15px; */
+  border-radius: 5px;
   border-bottom: 0;
-  /* margin-bottom: 0; */
   width: auto;
   background: #152c48;
   color: #ffffff !important;
@@ -492,14 +494,17 @@ hr {
 }
 
 /* MORE */
-/* .more-item {
-  background-color: rgb(238, 235, 235);
-} */
-/* .more-main {
-  width: ;
-} */
+.more-main {
+  background-image: url(https://24370.themes.vinawebsite.vn/wp-content/uploads/2019/11/bg_aboutus.png);
+
+}
+
 .more-item-row {
   display: flex;
+}
+
+.more-item-row:last-child {
+  margin-bottom: 30px;
 }
 
 .more-item-product {
@@ -511,10 +516,12 @@ hr {
 
 .item-product-image {
   width: 100%;
+  
 }
 
 .item-product-image img {
   width: 100%;
+  /* background-size: contain; */
 }
 
 .item-product-content {
