@@ -391,7 +391,7 @@ body {
 
 #footer {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-  
+
 }
 
 #footer .list-footer {
@@ -512,11 +512,14 @@ hr {
   margin: 20px;
   background-color: #ccc;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .item-product-image {
   width: 100%;
-  
+
 }
 
 .item-product-image img {
@@ -532,7 +535,7 @@ hr {
 
 .item-product-content span {
   color: red;
-  font-weight:lighter ;
+  font-weight: lighter;
 }
 
 .item-contract {
